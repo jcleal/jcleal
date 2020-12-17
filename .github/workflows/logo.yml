@@ -1,0 +1,32 @@
+name: logo
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  retrive:
+    name: Retrieve JMPA logo
+    runs-on: ubuntu-latest
+    if: "! contains(toJSON(github.event.commits.*.message), '[skip ci]')"
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+
+      - name: Checkout JMPA
+        uses: actions/checkout@v2
+        with:
+          repository: jmpa-oss/jmpa-oss
+          path: jmpa-oss
+          token: ${{ secrets.GH_TOKEN }}
+
+      - name: Update logo
+        run: |
+          # move logo
+          mv jmpa-oss/logo.png ./
+
+          # commit logo
+          git config user.name github-actions
+          git config user.email github-actions@github.com
+          git add .
+          git commit -m "[skip ci] Updated logo"
