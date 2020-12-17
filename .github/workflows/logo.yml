@@ -27,9 +27,7 @@ jobs:
           rm -rf jmpa-oss
 
           # commit logo
-          git config user.name github-actions
-          git config user.email github-actions@github.com
-          git add .
-          git commit -m "[skip ci] Updated logo"
-          git push
-
+          git config user.name 'GitHub Actions'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git commit -am "[skip ci] Updated logo"
+          git push origin HEAD:master
