@@ -27,7 +27,7 @@ jobs:
           rm -rf ./jmpa-oss
 
           # any changes?
-          [[ -n $(git status -s) ]] && { echo "no changes found"; exit 0; }
+          [[ -z $(git status -s) ]] && { echo "no changes found"; exit 0; }
 
           # commit!
           git config user.name 'GitHub Actions'
