@@ -5,7 +5,7 @@ on:
       - master
 
 jobs:
-  retrive:
+  update-logo:
     name: Retrieve JMPA logo
     runs-on: ubuntu-latest
     if: "! contains(toJSON(github.event.commits.*.message), '[skip ci]')"
@@ -22,11 +22,24 @@ jobs:
 
       - name: Update logo
         run: |
-          # move logo
-          mv jmpa-oss/logo.png ./
+          # retrieve latest
+          mv jmpa-oss/logo.png ./new.logo.png
           rm -rf jmpa-oss
 
-          # commit logo
+          # compare
+          old=$(cat ./logo.png)
+          new=$(cat ./new.logo.png)
+          if [[ "$old" != "$new" ]]; then
+            echo "updating logo with latest"
+            mv ./new.logo.png ./logo.png
+            echo "::set-output name=PUSH::true"
+          else
+            echo "no changes found!"
+          fi
+
+      - name: Commit new logo?
+        if: steps.generate.outputs.PUSH
+        run: |
           git config user.name 'GitHub Actions'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
           git commit -am "[skip ci] Updated logo"
