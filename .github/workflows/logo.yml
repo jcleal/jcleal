@@ -24,6 +24,7 @@ jobs:
         run: |
           # move logo
           mv jmpa-oss/logo.png ./
+          rm -rf jmpa-oss
 
           # commit logo
           git config user.name github-actions
