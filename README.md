@@ -1,6 +1,3 @@
-<p align="center">
-  <img width=50% src="logo.png">
-</p>
 <h3 align="center">Hi, I'm Jordan! 👋🏻</h3>
 <p align="center">
   <a href="https://jcleal.me">Resume / Blog</a> •
