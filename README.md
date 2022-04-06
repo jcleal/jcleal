@@ -8,4 +8,4 @@
 
 * 🧠 Focused on writing Go, Bash, and deploying to AWS.
 
-* 👉🏻 **All** of my code is stored over in my [`jmpa-io`](https://github.com/jmpa-io) org. See [this](https://github.com/jmpa-io/what-is-this-org) for why this is.
+* 👉🏻 **All** of my code is stored over in my [`jmpa-io`](https://github.com/jmpa-io) org.
