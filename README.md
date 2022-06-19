@@ -12,4 +12,4 @@
 
 --- 
 
-* 👀 See [`jmpa.io`](https://jmpa.io) for tutorials & paid content.
+* (Coming soon!) 👀 See [`jmpa.io`](https://jmpa.io) for tutorials & paid content.
