@@ -1,4 +1,4 @@
-<h3 align="center">Hi, I'm Jordan! 👋🏻</h3>
+<h3 align="center">👋🏻 Hi, I'm Jordan!</h3>
 
 * 🌱 I'm a DevOps Engineer working in Melbourne.
 * 🧠 Focused on writing Go, Bash, and deploying to AWS.
