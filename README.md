@@ -1,8 +1,6 @@
 <h3 align="center">👋🏻 Hi, I'm Jordan!</h3>
 
-<div align="center">👔 [My resume](https://jcleal.me) / [LinkedIn](https://www.linkedin.com/in/jordancleal)</div>
-
----
+<div align="center"> <a href="https://jcleal.me"><img src="https://img.shields.io/badge/Resume--_.svg?style=social&logo=quicklook" alt="Resume"></a> | <a href="https://www.linkedin.com/in/jordan-cleal"><img src="https://img.shields.io/badge/LinkedIn--_.svg?style=social&logo=linkedin" alt="LinkedIn"></a></div>
 
 * 🌱 I'm a DevOps Engineer working in the United Kingdom (previously Melbourne, Australia).
 * 🧠 I'm focused on solving problems using Go + Bash, and deploying to AWS.
