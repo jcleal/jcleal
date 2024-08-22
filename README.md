@@ -3,7 +3,7 @@
 <div align="center">
   <a href="https://jcleal.me"><img src="https://img.shields.io/badge/My%20Resume--_.svg?style=social&logo=quicklook" alt="My resume"></a> | 
   <a href="https://www.linkedin.com/in/jordan-cleal"><img src="https://img.shields.io/badge/LinkedIn--_.svg?style=social&logo=linkedin" alt="LinkedIn"></a> |
-  <img src="https://komarev.com/ghpvc/?username=jcleal&label=Profile%20views&color=0e75b6&style=flat" alt="isrealodejobi" />
+  <img src="https://komarev.com/ghpvc/?username=jcleal&label=Profile%20views&color=0e75b6&style=flat" alt="My profile views" />
 </div>
 
 * 🌱 I'm a DevOps Engineer working in the United Kingdom (previously Melbourne, Australia).
