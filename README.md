@@ -8,7 +8,7 @@
 
 #
 
-* 🌱 I'm a DevOps Engineer based in `Edinburgh, Scotland` (previously `Melbourne, Australia`).
+* 🌱 I'm a DevOps Engineer based in `Melbourne, Australia` (recently moved from `Edinburgh, Scotland`).
 * 🧠 I'm focused on solving problems using `Go`, `Bash`, and `AWS`.
 
 #
